@@ -54,11 +54,11 @@ lvgl:
               - label:
                   text_font: $icon_font
                   align: top_left
-                  id: scene_features_icon                
+                  id: scene_breakfast_icon                
                   text: $bowl
               - label:
                   align: bottom_left
-                  id: scene_features_label
+                  id: scene_breakfast_label
                   text: "Breakfast"
             on_press:
               - homeassistant.service:
@@ -77,11 +77,11 @@ lvgl:
               - label:
                   text_font: $icon_font
                   align: top_left
-                  id: scene_features_icon                
+                  id: scene_biscuits_icon                
                   text: $cookie
               - label:
                   align: bottom_left
-                  id: scene_features_label
+                  id: scene_biscuits_label
                   text: "Biscuits"
             on_press:
               - homeassistant.service:
@@ -100,11 +100,11 @@ lvgl:
               - label:
                   text_font: $icon_font
                   align: top_left
-                  id: scene_features_icon                
+                  id: scene_dinner_icon                
                   text: $hamburger
               - label:
                   align: bottom_left
-                  id: scene_features_label
+                  id: scene_dinner_label
                   text: "Dinner"
             on_press:
               - homeassistant.service:
