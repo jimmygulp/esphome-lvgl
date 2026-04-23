@@ -24,7 +24,7 @@ font:
       "\U000F0317",  # mdi-lan
       "\U000F028E",  # mdi:bowl
       "\U000F0198",  # mdi:cookie
-      "U\000F0685",  # mdi:hamburger
+      "\U000F0685",  # mdi:hamburger
       
       ]
 
@@ -47,6 +47,6 @@ substitutions:
   filament:       "\U000F07DE"
   lan:            "\U000F0317"
   bowl:           "\U000F028E"
-  cookie:         "U\000F0198"
-  hamburger:      "U\000F0685"
+  cookie:         "\U000F0198"
+  hamburger:      "\U000F0685"
 
