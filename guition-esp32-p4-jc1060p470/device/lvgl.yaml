@@ -66,6 +66,52 @@ lvgl:
                   data:
                     entity_id: input_boolean.breakfast
 
+        # Roger Biscuits
+        - button: 
+            height: $button_height
+            width: $button_width
+            checkable: true
+            id: roger_biscuits_button
+            styles: control
+            widgets:
+              - label:
+                  text_font: $icon_font
+                  align: top_left
+                  id: scene_features_icon                
+                  text: $cookie
+              - label:
+                  align: bottom_left
+                  id: scene_features_label
+                  text: "Biscuits"
+            on_press:
+              - homeassistant.service:
+                  service: switch.toggle
+                  data:
+                    entity_id: input_boolean.biscuits
+
+        # Roger Dinner
+        - button: 
+            height: $button_height
+            width: $button_width
+            checkable: true
+            id: roger_dinner_button
+            styles: control
+            widgets:
+              - label:
+                  text_font: $icon_font
+                  align: top_left
+                  id: scene_features_icon                
+                  text: $burger
+              - label:
+                  align: bottom_left
+                  id: scene_features_label
+                  text: "Dinner"
+            on_press:
+              - homeassistant.service:
+                  service: switch.toggle
+                  data:
+                    entity_id: input_boolean.dinner
+
         # Office Calls Scene
         - button: 
             height: $button_height
