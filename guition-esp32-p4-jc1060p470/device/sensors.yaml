@@ -91,9 +91,9 @@ binary_sensor:
 
   # Rogers Breakfast
   - platform: homeassistant
-    id: roger_breakfast_button
+    id: roger_breakfast
     entity_id: input_boolean.breakfast
-    trigger_on_initial_state: true
+    trigger_on_initial_state: false
     on_state:
       then:
         lvgl.widget.update:
