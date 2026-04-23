@@ -97,7 +97,7 @@ binary_sensor:
     on_state:
       then:
         lvgl.widget.update:
-          id: office_scene_features_button
+          id: roger_breakfast_button
           state:
             checked: !lambda return x;
 
