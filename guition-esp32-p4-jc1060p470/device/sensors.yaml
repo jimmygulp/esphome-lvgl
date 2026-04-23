@@ -91,8 +91,8 @@ binary_sensor:
 
   # Office Features Scene
   - platform: homeassistant
-    id: office_scene_features
-    entity_id: switch.office_features_stateful_scene
+    id: roger_breakfast_button
+    entity_id: boolean.breakfast
     trigger_on_initial_state: true
     on_state:
       then:
