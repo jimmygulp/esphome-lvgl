@@ -23,6 +23,9 @@ font:
       "\U000F07DE",  # mdi-filament
       "\U000F0317",  # mdi-lan
       "\U000F028E",  # mdi:bowl
+      "\U000F0198",  # mdi:cookie
+      "U\000F0685",  # mdi:hamburger
+      
       ]
 
 # Map icons to names
@@ -44,4 +47,6 @@ substitutions:
   filament:       "\U000F07DE"
   lan:            "\U000F0317"
   bowl:           "\U000F028E"
+  cookie:         "U\000F0198"
+  burger:         "U\000F0685"
 
