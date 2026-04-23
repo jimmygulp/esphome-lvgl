@@ -43,28 +43,28 @@ lvgl:
       
       widgets:
       
-        # Office Features Scene
+        # Roger Breakfast
         - button: 
             height: $button_height
             width: $button_width
             checkable: true
-            id: office_scene_features_button
+            id: roger_breakfast_button
             styles: control
             widgets:
               - label:
                   text_font: $icon_font
                   align: top_left
                   id: scene_features_icon                
-                  text: $ledstrip
+                  text: $breakfastbowl
               - label:
                   align: bottom_left
                   id: scene_features_label
-                  text: "Features"
+                  text: "Breakfast"
             on_press:
               - homeassistant.service:
                   service: switch.toggle
                   data:
-                    entity_id: switch.office_features_stateful_scene
+                    entity_id: input_boolean.breakfast
 
         # Office Calls Scene
         - button: 
