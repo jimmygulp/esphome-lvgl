@@ -89,10 +89,10 @@ binary_sensor:
           state:
             checked: !lambda return x;
 
-  # Office Features Scene
+  # Rogers Breakfast
   - platform: homeassistant
     id: roger_breakfast_button
-    entity_id: boolean.breakfast
+    entity_id: input_boolean.breakfast
     trigger_on_initial_state: true
     on_state:
       then:
