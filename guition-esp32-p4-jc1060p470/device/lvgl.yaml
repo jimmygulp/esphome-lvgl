@@ -101,7 +101,7 @@ lvgl:
                   text_font: $icon_font
                   align: top_left
                   id: scene_features_icon                
-                  text: $burger
+                  text: $hamburger
               - label:
                   align: bottom_left
                   id: scene_features_label
