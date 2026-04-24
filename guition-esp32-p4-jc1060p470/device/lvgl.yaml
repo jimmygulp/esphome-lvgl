@@ -62,7 +62,7 @@ lvgl:
                   text: "Breakfast"
             on_press:
               - homeassistant.service:
-                  service: switch.toggle
+                  service: input_boolean.turn_on
                   data:
                     entity_id: input_boolean.breakfast
 
@@ -85,7 +85,7 @@ lvgl:
                   text: "Biscuits"
             on_press:
               - homeassistant.service:
-                  service: switch.toggle
+                  service: input_boolean.turn_on
                   data:
                     entity_id: input_boolean.biscuits
 
@@ -108,7 +108,7 @@ lvgl:
                   text: "Dinner"
             on_press:
               - homeassistant.service:
-                  service: switch.toggle
+                  service: input_boolean.turn_on
                   data:
                     entity_id: input_boolean.dinner
 
