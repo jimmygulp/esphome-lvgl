@@ -388,7 +388,7 @@ lvgl:
               - homeassistant.service:
                   service: script.office_air_conditioner
 
-        # Battery Charger
+        # Dining Room Lamp - TEST
         - button: 
             height: $button_height
             width: $button_width
@@ -404,12 +404,12 @@ lvgl:
               - label:
                   align: bottom_left
                   id: battery_charger_label
-                  text: "Charger"
+                  text: "Dining Room Lamp"
             on_click:
               - homeassistant.service:
                   service: switch.toggle
                   data:
-                    entity_id: switch.battery_charger
+                    entity_id: switch.dining_room_3_way_l1
 
         # Storage Lights
         - button: 
