@@ -93,37 +93,37 @@ binary_sensor:
   - platform: homeassistant
     id: roger_breakfast
     entity_id: input_boolean.breakfast
-    trigger_on_initial_state: false
+    trigger_on_initial_state: true
     on_state:
       then:
         lvgl.widget.update:
           id: roger_breakfast_button
           state:
-            checked: lambda return x;
+            checked: !lambda return x;
 
   # Rogers Biscuits
   - platform: homeassistant
     id: roger_biscuits
     entity_id: input_boolean.biscuits
-    trigger_on_initial_state: false
+    trigger_on_initial_state: true
     on_state:
       then:
         lvgl.widget.update:
           id: roger_biscuits_button
           state:
-            checked: lambda return x;
+            checked: !lambda return x;
 
   # Rogers Dinner
   - platform: homeassistant
     id: roger_dinner
     entity_id: input_boolean.dinner
-    trigger_on_initial_state: false
+    trigger_on_initial_state: true
     on_state:
       then:
         lvgl.widget.update:
           id: roger_dinner_button
           state:
-            checked: lambda return x;
+            checked: !lambda return x;
 
   # 3d Printer
   - platform: homeassistant
