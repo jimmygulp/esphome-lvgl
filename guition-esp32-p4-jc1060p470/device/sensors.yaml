@@ -2,7 +2,7 @@ sensor:
 
   # Header Outdoor Temperate
   - platform: homeassistant
-    entity_id: sensor.office_temperature
+    entity_id: sensor.dining_room_temperature_local_temperature
     id: office_temperature
     on_value:
       - lvgl.label.update:
@@ -12,7 +12,7 @@ sensor:
             args: [ '(int)round(id(outdoor_temperature).state)', '(int)round(x)' ]
 
   - platform: homeassistant
-    entity_id: sensor.outdoor_temperature
+    entity_id: sensor.lumi_lumi_weather_temperature_2
     id: outdoor_temperature
     on_value:
       - lvgl.label.update:
@@ -99,7 +99,7 @@ binary_sensor:
         lvgl.widget.update:
           id: roger_breakfast_button
           state:
-            checked: !lambda return x;
+            checked: lambda return x;
 
   # Rogers Biscuits
   - platform: homeassistant
@@ -111,7 +111,7 @@ binary_sensor:
         lvgl.widget.update:
           id: roger_biscuits_button
           state:
-            checked: !lambda return x;
+            checked: lambda return x;
 
   # Rogers Dinner
   - platform: homeassistant
@@ -123,7 +123,7 @@ binary_sensor:
         lvgl.widget.update:
           id: roger_dinner_button
           state:
-            checked: !lambda return x;
+            checked: lambda return x;
 
   # 3d Printer
   - platform: homeassistant
