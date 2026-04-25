@@ -7,7 +7,7 @@ lvgl:
     
       # Temperature
       - label:
-          text: "-° / -°"
+          text: "Ding Room: -° / Library: -°"
           id: temperatures
           text_font: clockbar_font
           align: top_left
