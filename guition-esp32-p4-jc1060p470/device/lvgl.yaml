@@ -129,7 +129,7 @@ lvgl:
                   data:
                     entity_id: input_boolean.dinner
 
-        # Office Calls Scene
+        # Basement MOVIES Scene
         - button: 
             height: $button_height
             width: $button_width
@@ -145,12 +145,12 @@ lvgl:
               - label:
                   align: bottom_left
                   id: office_scene_calls_label
-                  text: "Calls"
+                  text: "Movies (lamps and red)"
             on_press:
               - homeassistant.service:
                   service: switch.toggle
                   data:
-                    entity_id: switch.office_calls_stateful_scene
+                    entity_id: scene.basement_movies
 
         # Office Evening Scene
         - button: 
