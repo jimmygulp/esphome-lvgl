@@ -20,17 +20,6 @@ sensor:
           text:
             format: "%d° / %d°"
             args: [ '(int)round(x)', '(int)round(id(office_temperature).state)' ]
- 
-  ## Jimmys BG
-#  - platform: homeassistant
-#    entity_id: sensor.james_swallow_measurement
-#    id: jimmysbg
-#    on_value:
-#      - lvgl.label.update:
-#          id: jimmybgvalue
-#          text:
-#            format: "%d"
-#            args: [ '(int)round(x)' ]
 
   # Office Blind Position
   - platform: homeassistant
