@@ -37,7 +37,6 @@ lvgl:
           text_align: top_right
           text_color: 0xFFFFFF
 
-
    pages:
     - id: main_page
       layout: 
