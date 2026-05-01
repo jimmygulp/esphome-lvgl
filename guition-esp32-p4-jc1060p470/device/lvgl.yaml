@@ -27,15 +27,15 @@ lvgl:
           text_color: 0xFFFFFF
           
       # Jimmys BG
-      - label:
-          text: "--.-"
-          id: jimmybg
-          text_font: clockbar_font
-          align: top_mid
-          x: 0
-          y: 8
-          text_align: top_right
-          text_color: 0xFFFFFF
+#      - label:
+#          text: "--.-"
+#          id: jimmybg
+#          text_font: clockbar_font
+#          align: top_mid
+#          x: 0
+#          y: 8
+#          text_align: top_right
+#          text_color: 0xFFFFFF
 
    pages:
     - id: main_page
