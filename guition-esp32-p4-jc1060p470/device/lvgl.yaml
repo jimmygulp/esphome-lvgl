@@ -57,7 +57,7 @@ lvgl:
                   text: $cat
               - label:
                   align: bottom_left
-                  id: scene_breakfast_label
+                  id: scene_rogerheader_label
                   text: "ROGER"
 
         # Roger Breakfast
