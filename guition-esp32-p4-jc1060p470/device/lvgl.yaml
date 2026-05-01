@@ -59,7 +59,7 @@ lvgl:
         - button: 
             height: $button_height
             width: $button_width
-            checkable: true
+            checkable: false
             id: roger_breakfast_button
             styles: control
             widgets:
@@ -82,7 +82,7 @@ lvgl:
         - button: 
             height: $button_height
             width: $button_width
-            checkable: true
+            checkable: false
             id: roger_biscuits_button
             styles: control
             widgets:
@@ -105,7 +105,7 @@ lvgl:
         - button: 
             height: $button_height
             width: $button_width
-            checkable: true
+            checkable: false
             id: roger_dinner_button
             styles: control
             widgets:
