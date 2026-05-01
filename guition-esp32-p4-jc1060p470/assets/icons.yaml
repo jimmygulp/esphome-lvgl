@@ -25,7 +25,7 @@ font:
       "\U000F028E",  # mdi:bowl
       "\U000F0198",  # mdi:cookie
       "\U000F0685",  # mdi:hamburger
-      
+      "\U000F011B",  # mdi:cat
       ]
 
 # Map icons to names
@@ -49,4 +49,5 @@ substitutions:
   bowl:           "\U000F028E"
   cookie:         "\U000F0198"
   hamburger:      "\U000F0685"
+  cat:            "\U000F011B"
 
