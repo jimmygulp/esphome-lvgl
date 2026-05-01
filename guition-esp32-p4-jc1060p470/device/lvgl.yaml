@@ -43,6 +43,23 @@ lvgl:
       
       widgets:
       
+        # Roger HEADER
+        - button: 
+            height: $button_height
+            width: $button_width
+            checkable: false
+            id: roger_header_button
+            widgets:
+              - label:
+                  text_font: $icon_font
+                  align: top_left
+                  id: scene_cat_icon                
+                  text: $cat
+              - label:
+                  align: bottom_left
+                  id: scene_breakfast_label
+                  text: "ROGER"
+
         # Roger Breakfast
         - button: 
             height: $button_height
