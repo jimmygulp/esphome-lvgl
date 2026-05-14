@@ -7,7 +7,7 @@ lvgl:
     
       # Temperature
       - label:
-          text: "Ding Room: -° / Library: -°"
+          text: "-° / -°"
           id: temperatures
           text_font: clockbar_font
           align: top_left
@@ -128,6 +128,14 @@ lvgl:
                   service: input_boolean.toggle
                   data:
                     entity_id: input_boolean.dinner
+
+
+        # Blnk 1
+        - button: 
+            height: $button_height
+            width: $button_width
+            checkable: false
+            id: blank_a
 
         # Basement MOVIES Scene
         - button: 
