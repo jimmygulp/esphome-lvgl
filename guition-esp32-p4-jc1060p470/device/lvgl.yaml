@@ -7,7 +7,7 @@ lvgl:
     
       # Temperature
       - label:
-          text: "Ding Room: -° / Library: -°"
+          text: " -° / -°"
           id: temperatures
           text_font: clockbar_font
           align: top_left
@@ -129,29 +129,13 @@ lvgl:
                   data:
                     entity_id: input_boolean.dinner
 
-        # Basement MOVIES Scene
+        # Blank Button
         - button: 
             height: $button_height
             width: $button_width
-            checkable: true
-            id: office_scene_calls_button
-            styles: control
-            widgets:
-              - label:
-                  text_font: $icon_font
-                  align: top_left
-                  id: office_scene_calls_icon                
-                  text: $videocall
-              - label:
-                  align: bottom_left
-                  id: office_scene_calls_label
-                  text: "Movies (lamps and red)"
-            on_press:
-              - homeassistant.service:
-                  service: switch.toggle
-                  data:
-                    entity_id: scene.basement_movies
-
+            checkable: false
+            id: button_blank_1
+            
         # Office Evening Scene
         - button: 
             height: $button_height
