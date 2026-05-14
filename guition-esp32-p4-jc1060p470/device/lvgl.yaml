@@ -135,6 +135,16 @@ lvgl:
             width: $button_width
             checkable: false
             id: button_blank_1
+            widgets:
+              - label:
+                  text_font: $icon_font
+                  align: top_left
+                  id: blank_a                
+                  text: ""
+              - label:
+                  align: bottom_left
+                  id: scene_dinner_label
+                  text: ""
             
         # Office Evening Scene
         - button: 
