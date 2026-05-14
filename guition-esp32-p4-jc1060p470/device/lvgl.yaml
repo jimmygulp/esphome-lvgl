@@ -136,6 +136,7 @@ lvgl:
             width: $button_width
             checkable: false
             id: blank_a
+            bg_color: darkgray
 
         # Basement MOVIES Scene
         - button: 
